@@ -1,0 +1,11 @@
+C:\Users\ROOT\Documents\GitHub\Bigpara.Bot\Bigpara.Bot\obj\Debug\Bigpara.Bot.csproj.AssemblyReference.cache
+C:\Users\ROOT\Documents\GitHub\Bigpara.Bot\Bigpara.Bot\obj\Debug\Bigpara.Bot.csproj.CoreCompileInputs.cache
+C:\Users\ROOT\Documents\GitHub\Bigpara.Bot\Bigpara.Bot\bin\Debug\Bigpara.Bot.exe.config
+C:\Users\ROOT\Documents\GitHub\Bigpara.Bot\Bigpara.Bot\bin\Debug\Bigpara.Bot.exe
+C:\Users\ROOT\Documents\GitHub\Bigpara.Bot\Bigpara.Bot\bin\Debug\Bigpara.Bot.pdb
+C:\Users\ROOT\Documents\GitHub\Bigpara.Bot\Bigpara.Bot\bin\Debug\HtmlAgilityPack.dll
+C:\Users\ROOT\Documents\GitHub\Bigpara.Bot\Bigpara.Bot\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\ROOT\Documents\GitHub\Bigpara.Bot\Bigpara.Bot\bin\Debug\HtmlAgilityPack.xml
+C:\Users\ROOT\Documents\GitHub\Bigpara.Bot\Bigpara.Bot\obj\Debug\Bigpara.Bot.csproj.CopyComplete
+C:\Users\ROOT\Documents\GitHub\Bigpara.Bot\Bigpara.Bot\obj\Debug\Bigpara.Bot.exe
+C:\Users\ROOT\Documents\GitHub\Bigpara.Bot\Bigpara.Bot\obj\Debug\Bigpara.Bot.pdb
