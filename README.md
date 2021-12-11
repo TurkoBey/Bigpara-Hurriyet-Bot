@@ -3,17 +3,16 @@
  https://bigpara.hurriyet.com.tr/
 ```
 
-[![](https://github.com/TurkoBey/Uzmanpara-Bot/blob/main/gorseller/1.PNG)](https://github.com/TurkoBey/Uzmanpara-Bot/blob/main/gorseller/1.PNG)
+[![](https://github.com/TurkoBey/Bigpara-Hurriyet-Bot/blob/main/gorseller/doviz.PNG)](https://github.com/TurkoBey/Bigpara-Hurriyet-Bot/blob/main/gorseller/doviz.PNG)
 
-[![](https://github.com/TurkoBey/Uzmanpara-Bot/blob/main/gorseller/2.PNG)](https://github.com/TurkoBey/Uzmanpara-Bot/blob/main/gorseller/2.PNG)
+[![](https://github.com/TurkoBey/Bigpara-Hurriyet-Bot/blob/main/gorseller/altin.PNG)](https://github.com/TurkoBey/Bigpara-Hurriyet-Bot/blob/main/gorseller/altin.PNG)
 
-[![](https://github.com/TurkoBey/Uzmanpara-Bot/blob/main/gorseller/3.PNG)](https://github.com/TurkoBey/Uzmanpara-Bot/blob/main/gorseller/3.PNG)
+[![](https://github.com/TurkoBey/Bigpara-Hurriyet-Bot/blob/main/gorseller/gundem.PNG)](https://github.com/TurkoBey/Bigpara-Hurriyet-Bot/blob/main/gorseller/gundem.PNG)
 
-[![](https://github.com/TurkoBey/Uzmanpara-Bot/blob/main/gorseller/4.PNG)](https://github.com/TurkoBey/Uzmanpara-Bot/blob/main/gorseller/4.PNG)
+[![](https://github.com/TurkoBey/Bigpara-Hurriyet-Bot/blob/main/gorseller/merkez.PNG)](https://github.com/TurkoBey/Bigpara-Hurriyet-Bot/blob/main/gorseller/merkez.PNG)
 
-[![](https://github.com/TurkoBey/Uzmanpara-Bot/blob/main/gorseller/5.PNG)](https://github.com/TurkoBey/Uzmanpara-Bot/blob/main/gorseller/5.PNG)
+[![](https://github.com/TurkoBey/Bigpara-Hurriyet-Bot/blob/main/gorseller/serbest.PNG)](https://github.com/TurkoBey/Bigpara-Hurriyet-Bot/blob/main/gorseller/serbest.PNG)
 
-[![](https://github.com/TurkoBey/Uzmanpara-Bot/blob/main/gorseller/6.PNG)](https://github.com/TurkoBey/Uzmanpara-Bot/blob/main/gorseller/6.PNG)
 
 
 
