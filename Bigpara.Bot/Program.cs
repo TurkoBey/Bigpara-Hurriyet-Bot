@@ -25,14 +25,13 @@ namespace Bigpara.Bot
                 "[ 4 ] ==> Serbest Piyasa Kurları" + "\n" +
                 "[ 5 ] ==> Gündem Haber" + 
                 "\n\n==========================================================\n");
-
             Console.Write("Seçim yapınız : ");
 
             try
             {
                 Class1.NewMethod();
             }
-            catch (Exception mesaj)
+            catch (Exception)
             {
                 Console.Write("Sadece sayı değeri giriniz..");
             }
@@ -41,7 +40,6 @@ namespace Bigpara.Bot
                 Console.Write("\n\nSeçim yapınız : ");
                 Class1.NewMethod();
             }
-
             Console.ReadLine();
         }
 
