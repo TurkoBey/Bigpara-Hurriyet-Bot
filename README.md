@@ -1,4 +1,4 @@
-# Uzmanpara Milliyet Bot
+# Bigpara Hürriyet Bot
 ```sh
  https://bigpara.hurriyet.com.tr/
 ```
