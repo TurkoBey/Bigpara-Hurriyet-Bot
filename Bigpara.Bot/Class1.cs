@@ -55,6 +55,14 @@ namespace Bigpara.Bot
                     Console.Write("\n\nSeçim yapınız : ");
                     Class1.NewMethod();
                     break;
+                case 6:
+                    Console.WriteLine("\nGündem Çekiliyor...\n");
+                    Thread.Sleep(2000);
+                    VeriCek.GundemCek.UzmanParaGundemCek();
+                    Thread.Sleep(2000);
+                    Console.Write("\n\nSeçim yapınız : ");
+                    Class1.NewMethod();
+                    break;
                 default:
                     Console.Write("Hatalı seçim yaptınız..");
                     break;
