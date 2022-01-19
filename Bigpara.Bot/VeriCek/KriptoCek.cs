@@ -9,7 +9,7 @@ namespace Bigpara.Bot.VeriCek
 {
     public static class KriptoCek
     {
-        public static void UzmanParaKriptoCek()
+        public static void BigParaKriptoCek()
         {
             try
             {

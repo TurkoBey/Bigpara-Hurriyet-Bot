@@ -9,7 +9,7 @@ namespace Bigpara.Bot.VeriCek
 {
     public class MerkezBankasiCek
     {
-        public static void UzmanParaMerkezBankasiDovizCek()
+        public static void BigParaMerkezBankasiDovizCek()
         {
             try
             {

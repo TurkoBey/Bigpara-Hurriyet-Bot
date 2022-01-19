@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Bigpara.Bot.VeriCek
 {
-    public static class GundemCek
+    class HaberDovizCek
     {
-        public static void BigParaGundemCek()
+        public static void BigParaHaberDovizCek()
         {
             try
             {
-                var site = "https://bigpara.hurriyet.com.tr/haberler/";
+                var site = "https://bigpara.hurriyet.com.tr/doviz/haber/";
                 var link = "https://bigpara.hurriyet.com.tr";
 
                 List<Gundem> GundemListesi = new List<Gundem>();
@@ -21,21 +21,23 @@ namespace Bigpara.Bot.VeriCek
                 HtmlWeb web = new HtmlWeb();
                 HtmlDocument document = web.Load(site);
 
-                var GundemXpath = "//div[@class='newsFeedBox']";
+                var GundemXpath = "//div[@class='tBody']";
                 var GundemX = document.DocumentNode.SelectNodes(GundemXpath);
 
                 foreach (var Gundem in GundemX)
                 {
-                    for (int i = 1; i <= 5; i++)
+                    for (int i = 1; i <= 25; i++)
                     {
-                        string HaberBaslik = KarakterDuzelt.Duzelt(Gundem.SelectSingleNode("//div[2]/div[1]/ul/li[" + i + "]/a/span/span[2]").InnerText);
-                        string HaberTarih = KarakterDuzelt.Duzelt(Gundem.SelectSingleNode("//div[2]/div[1]/ul/li[" + i + "]/a/span[1]/span[1]").InnerText);
-                        string HaberLink = Gundem.SelectSingleNode("//div[2]/div[1]/ul/li[" + i + "]/a").Attributes["href"].Value;
+                        string HaberBaslik = KarakterDuzelt.Duzelt(Gundem.SelectSingleNode("//div[2]/div[2]/ul[" + i + "]/li[1]/h2").InnerText);
+                        string HaberTarih = Gundem.SelectSingleNode("//div[2]/div[2]/ul[" + i + "]/li[2]").InnerText;
+                        string HaberSaat = Gundem.SelectSingleNode("//div[2]/div[2]/ul[" + i + "]/li[3]").InnerText;
+                        string HaberLink = Gundem.SelectSingleNode("//div[2]/div[2]/ul[" + i + "]/li[1]/h2/a").Attributes["href"].Value;
 
                         GundemListesi.Add(new Gundem()
                         {
                             HaberBaslik = HaberBaslik,
                             HaberTarih = HaberTarih,
+                            HaberSaat = HaberSaat,
                             HaberLink = HaberLink
                         });
                     }
@@ -46,6 +48,7 @@ namespace Bigpara.Bot.VeriCek
                 {
                     Console.WriteLine($"Başlık :: {Gundem.HaberBaslik}");
                     Console.WriteLine($"Tarih  :: {Gundem.HaberTarih}");
+                    Console.WriteLine($"Saat   :: {Gundem.HaberSaat}");
                     Console.WriteLine($"Link   :: {link}{Gundem.HaberLink}");
                     Console.WriteLine("======================");
                 }

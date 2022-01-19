@@ -55,6 +55,9 @@
     <Compile Include="VeriCek\AltinCek.cs" />
     <Compile Include="VeriCek\DovizCek.cs" />
     <Compile Include="VeriCek\GundemCek.cs" />
+    <Compile Include="VeriCek\HaberAltinCek.cs" />
+    <Compile Include="VeriCek\HaberBorsaCek.cs" />
+    <Compile Include="VeriCek\HaberDovizCek.cs" />
     <Compile Include="VeriCek\KriptoCek.cs" />
     <Compile Include="VeriCek\MerkeziBankasiCek.cs" />
     <Compile Include="VeriCek\SerbestPiyasaCek.cs" />

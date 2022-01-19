@@ -9,7 +9,7 @@ namespace Bigpara.Bot.VeriCek
 {
     public static class DovizCek
     {
-        public static void UzmanParaDovizCek()
+        public static void BigParaDovizCek()
         {
             try
             {

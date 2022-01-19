@@ -23,7 +23,10 @@ namespace Bigpara.Bot
                 "[ 2 ] ==> Altin ( Gram - Çeyrek - ONS )" + "\n" +
                 "[ 3 ] ==> Merkez Bankası Kurları" + "\n" +
                 "[ 4 ] ==> Serbest Piyasa Kurları" + "\n" +
-                "[ 5 ] ==> Gündem Haber" + 
+                "[ 5 ] ==> Gündem Haber" + "\n" +
+                "[ 6 ] ==> Borsa Haberleri [ Son 25 ]" + "\n" +
+                "[ 7 ] ==> Döviz Haberleri [ Son 25 ]" + "\n" +
+                "[ 8 ] ==> Altin Haberleri [ Son 25 ]" +
                 "\n\n==========================================================\n");
             Console.Write("Seçim yapınız : ");
 

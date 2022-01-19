@@ -37,7 +37,11 @@ namespace Bigpara.Bot
             str = str.Replace("&#214;", "O");
             str = str.Replace("&#231;", "c");
 
-
+            str = str.Replace("2021 / ", "2021");
+            str = str.Replace("&quot;", "\"");
+            str = str.Replace("&#246;", "ö");
+            //"&quot;Yukarı y&#246;n i&#231;in 1815 dolar seviyesi &#246;nemli&quot;"
+            //"Yukarı yön için 1815 dolar seviyesi önemli"
             return str;
         }
     }

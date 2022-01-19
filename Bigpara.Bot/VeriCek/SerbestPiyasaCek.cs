@@ -9,7 +9,7 @@ namespace Bigpara.Bot.VeriCek
 {
     public static class SerbestPiyasaCek
     {
-        public static void UzmanParaSerbestPiyasaCek()
+        public static void BigParaSerbestPiyasaCek()
         {
             try
             {

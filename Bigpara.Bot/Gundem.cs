@@ -10,6 +10,7 @@ namespace Bigpara.Bot
     {
         public string HaberBaslik { get; set; }
         public string HaberTarih { get; set; }
+        public string HaberSaat { get; set; }
         public string HaberLink { get; set; }
     }
     

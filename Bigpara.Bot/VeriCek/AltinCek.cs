@@ -9,7 +9,7 @@ namespace Bigpara.Bot.VeriCek
 {
     public static class AltinCek
     {
-        public static void UzmanParaAltinCek()
+        public static void BigParaAltinCek()
         {
             try
             {
